@@ -1,0 +1,82 @@
+body {
+  background: #202225 !important;
+  /* color: #ffffff !important; */
+  padding-top: 0.5em !important;
+}
+
+.ui.grid>.row>.column {
+  padding: 0rem !important;
+  /* width: 41px !important; */
+}
+
+.ui.grid {
+  margin: 0rem !important;
+}
+
+.ui.grid>* {
+  padding: unset !important;
+}
+
+.menue {
+  height: 10em;
+}
+
+.menu-signin-button {
+  margin: 0em !important;
+}
+
+.form {
+  /* margin: 0em 0em 0em 0em !important; */
+  height: 13em;
+}
+
+.ui.inverted.segment {
+  background: inherit !important;
+}
+
+.ui.grid>.row {
+  /* padding: 0.5rem 0rem !important; */
+  /* border-top: 2px solid blue; */
+}
+
+.ui.grid>.row.item-row {
+  padding: 1rem 0.75rem 1rem 0rem !important;
+  border-top: 1px solid #37393b;
+}
+
+.ui.segment {
+  font-size: 0.95rem !important;
+}
+
+.ui.small.image {
+  width: 95px !important;
+  padding: 0.1rem;
+  border: 2px solid #37393b !important;
+}
+.ui.small.image.no-src{
+  border: unset !important;
+}
+
+.customB {
+  cursor: pointer !important;
+  pointer-events: all !important;
+  padding: 0.5rem;
+  /* width: 11em; */
+  /* color: darkslategrey !important; */
+}
+
+.ui.circular.button.round-button {
+  margin: 0.5rem 0 0.5rem 0.75rem;
+}
+
+.customB:hover {
+  opacity: 0.85 !important;
+}
+
+.customB> .ui.disabled.button {
+  opacity: unset !important;
+}
+
+.main-form>.grid {
+  margin-top: -1rem !important;
+}
